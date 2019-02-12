@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CARINHA FELIZ</title>
+	<script src="p5.js" type="text/javascript"></script>
+	<script type="text/javascript"></script>
+</head>
+<body>
+	<script type="text/javascript" >
+		function setup() {
+		  createCanvas(600, 600);
+		}
+
+		function draw() {		
+			let c = color(255, 204, 0);
+			fill(c);
+			noStroke();
+			ellipse(300, 200, 400, 400);
+
+			c = color(65);
+			fill(c);
+			ellipse(380,150,75, 150);
+			ellipse(220,150,75,150);
+			
+
+			strokeWeight(10);
+			line(20, 70, 80, 70);
+			noFill();	
+			stroke(0);
+			curve(200, 40, 200, 300, 400, 300, 420, 0);
+			stroke(255, 200, 0);
+		}
+	</script>
+
+</body>
+</html>
